@@ -1,0 +1,208 @@
+.layui-carousel img{
+    width: 100%;
+}
+.layui-col-md12 {
+    padding: 10px 20px;
+}
+.layui-col-md12 h3 {
+    color: red;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.layui-col-md12 .clumn_1 {
+    background-color: rgb(100,211,172);
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 10px 10px 0 0;
+    font-size: 18px;
+    width: 25%;
+    text-align: center;
+    font-weight: 600;
+    float: left;
+}
+
+.layui-col-md5 {
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+.layui-col-md10{
+    margin-left: 13px;
+}
+.layui-col-md10 img{
+    width: 124%;
+    margin-right: 80px;
+}
+.layui-col-md5 .clumn_radius {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(75, 139, 221);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clumn_radius_content {
+    display: inline-block;
+    width: 165px;
+    height: 165px;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.clumn_radius_content .clumn_radius_content1,
+.clumn_radius_content .clumn_radius_content2,
+.clumn_radius_content .clumn_radius_content3,
+.clumn_radius_content .clumn_radius_content4,
+.clumn_radius_content .radius_content_center {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(75, 139, 221);
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.clumn_radius_content .clumn_radius_content1:hover,
+.clumn_radius_content .clumn_radius_content2:hover,
+.clumn_radius_content .clumn_radius_content3:hover,
+.clumn_radius_content .clumn_radius_content4:hover {
+    font-weight: 600;
+}
+
+.clumn_radius_content .clumn_radius_content1 {
+    position: absolute;
+    top: 0;
+    left: 62px;
+}
+
+.clumn_radius_content .clumn_radius_content2 {
+    position: absolute;
+    right: 0;
+    top: 62px;
+}
+
+.clumn_radius_content .clumn_radius_content3 {
+    position: absolute;
+    bottom: 0;
+    left: 62px;
+}
+
+.clumn_radius_content .clumn_radius_content4 {
+    position: absolute;
+    left: 0;
+    top: 62px;
+}
+
+.clumn_radius_content .radius_content_center {
+    position: absolute;
+    bottom: 62px;
+    left: 61px;
+    top: 62px;
+    right: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clumn_radius_content .radius_content_center img {
+    width: 120%;
+    height: 120%;
+    transform: rotate(180deg)
+}
+.clumn_radius_right {
+    display: flex;
+    justify-content: flex-start;
+}
+.clumn_radius_right1{
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.clumn_radius_right1_zheng{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+ .zheng1, .zheng2,
+ .zheng3, .zheng4,
+ .zheng5, .zheng6,
+ .zheng9, .zheng10,
+ .zheng7, .zheng8,.zheng11,.zheng12{
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+}
+.zheng1{
+    background-color: rgb(245,248,14);
+}
+.zheng2{
+    background-color: rgb(247,3,37);
+}
+.zheng3{
+    background-color: rgb(14,185,248);
+}
+.zheng4{
+    background-color: rgb(10,26,245);
+}
+.zheng5{
+    background-color: rgb(7,249,184);
+}
+.zheng6{
+    background-color: rgb(248,17,104);
+}
+.zheng7{
+    background-color: rgb(202,203,143);
+}
+.zheng8{
+    background-color: rgb(246,70,16);
+}
+.zheng9{
+    background-color: rgb(16,222,246);
+}
+.zheng10{
+    background-color: rgb(16,222,246);
+}
+.zheng11{
+    background-color: rgb(249,195,7);
+}
+.zheng12{
+    background-color: rgba(215,10,164);
+}
+.clumn_radius_right1_zheng .zheng_title{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+.clumn_radius_right1_zheng .lindent {
+    background-image: -webkit-linear-gradient(left, blue, #66ffff 10%, #cc00ff 20%, #CC00CC 30%, #CCCCFF 40%, #00FFFF 50%, #CCCCFF 60%, #CC00CC 70%, #CC00FF 80%, #66FFFF 90%, blue 100%);
+    -webkit-text-fill-color: transparent; /* 将字体设置成透明色 */
+    -webkit-background-clip: text; /* 裁剪背景图，使文字作为裁剪区域向外裁剪 */
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: masked-animation 4s linear infinite;
+}
+.layui-carousel img{
+    width:100%;
+    height: 100%;
+
+}
+.layui-carousel>[carousel-item]>.layui-this{
+    overflow-x: hidden;
+    word-wrap:break-word;
+}
+.layui-carousel>[carousel-item]>.layui-this span{
+    word-wrap:break-word;
+}
+#hid p{
+    word-wrap:break-word !important;
+}
