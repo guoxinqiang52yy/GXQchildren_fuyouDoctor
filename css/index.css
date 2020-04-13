@@ -68,7 +68,7 @@ a:active {
     flex: 1;
     text-align: center;
     text-shadow:10px 10px 15px #000;
-    padding: 95px 0;
+    padding: 51px 0;
 }
 /*右边菜单*/
 .grid-demo-bg2{
@@ -102,9 +102,9 @@ a:active {
     overflow: hidden;
 }
 .layui-col-md12{
-    height: 150px;
-    padding:10px;
-    font-size: 25px;
+    height: 200px;
+    padding:10px 0 10px 20px;
+    font-size: 35px;
     color: rgb(149,150,150);
     font-weight: 600;
 }
@@ -141,8 +141,8 @@ a:active {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    top:400px;
-    right: 300px;
+    top:620px;
+    right: 423px;
     z-index: 9999;
 }
 .button_posi button{

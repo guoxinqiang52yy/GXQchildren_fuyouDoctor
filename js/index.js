@@ -14,6 +14,7 @@ function cImg() {
         dataType: 'JSON',
         contentType: 'application/x-www-form-urlencoded',
         success: function (res) {
+            console.log(res);
             if (res.code === 1) {
                 var v
                 var a = `<div class="layui-col-md12">

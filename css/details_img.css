@@ -14,13 +14,14 @@
     background-color: rgb(100,211,172);
     border-radius: 10px;
     color: #fff;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 10px 10px 0 0;
-    font-size: 18px;
-    width: 25%;
+    font-size: 25px;
+    width: 27%;
     text-align: center;
     font-weight: 600;
     float: left;
+    z-index: 9999;
 }
 
 .layui-col-md5 {
@@ -35,8 +36,8 @@
     margin-right: 80px;
 }
 .layui-col-md5 .clumn_radius {
-    width: 180px;
-    height: 180px;
+    width: 168px;
+    height: 168px;
     background-color: rgb(75, 139, 221);
     border-radius: 100%;
     display: flex;
@@ -46,8 +47,8 @@
 
 .clumn_radius_content {
     display: inline-block;
-    width: 165px;
-    height: 165px;
+    width: 145px;
+    height: 145px;
     background-color: #fff;
     border-radius: 100%;
     padding: 5px;
@@ -61,12 +62,12 @@
 .clumn_radius_content .clumn_radius_content4,
 .clumn_radius_content .radius_content_center {
     display: inline-block;
-    width: 25%;
-    height: 25%;
+    width: 26%;
+    height: 26%;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(75, 139, 221);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 42px;
 }
 
@@ -74,47 +75,47 @@
 .clumn_radius_content .clumn_radius_content2:hover,
 .clumn_radius_content .clumn_radius_content3:hover,
 .clumn_radius_content .clumn_radius_content4:hover {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .clumn_radius_content .clumn_radius_content1 {
     position: absolute;
     top: 0;
-    left: 62px;
+    left: 55px;
 }
 
 .clumn_radius_content .clumn_radius_content2 {
     position: absolute;
     right: 0;
-    top: 62px;
+    top: 55px;
 }
 
 .clumn_radius_content .clumn_radius_content3 {
     position: absolute;
     bottom: 0;
-    left: 62px;
+    left: 54px;
 }
 
 .clumn_radius_content .clumn_radius_content4 {
     position: absolute;
     left: 0;
-    top: 62px;
+    top: 55px;
 }
 
 .clumn_radius_content .radius_content_center {
     position: absolute;
-    bottom: 62px;
-    left: 61px;
-    top: 62px;
-    right: 62px;
+    bottom: 55px;
+    left: 55px;
+    top: 55px;
+    right: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .clumn_radius_content .radius_content_center img {
-    width: 120%;
-    height: 120%;
+    width: 125%;
+    height: 125%;
     transform: rotate(180deg)
 }
 .clumn_radius_right {
@@ -137,19 +138,19 @@
  .zheng3, .zheng4,
  .zheng5, .zheng6,
  .zheng9, .zheng10,
- .zheng7, .zheng8,.zheng11,.zheng12{
-    width: 22px;
-    height: 22px;
+ .zheng7, .zheng8,.zheng11,.zheng12,.zheng13{
+    width: 25px;
+    height: 25px;
     margin-right: 20px;
 }
 .zheng1{
-    background-color: rgb(245,248,14);
+    background-color: rgb(117,194,0);
 }
 .zheng2{
-    background-color: rgb(247,3,37);
+    background-color: rgb(204,0,1);
 }
 .zheng3{
-    background-color: rgb(14,185,248);
+    background-color: rgb(63,110,164);
 }
 .zheng4{
     background-color: rgb(10,26,245);
@@ -158,16 +159,16 @@
     background-color: rgb(7,249,184);
 }
 .zheng6{
-    background-color: rgb(248,17,104);
+    background-color: rgb(203,0,118);
 }
 .zheng7{
     background-color: rgb(202,203,143);
 }
 .zheng8{
-    background-color: rgb(246,70,16);
+    background-color: rgb(198,104,1);
 }
 .zheng9{
-    background-color: rgb(16,222,246);
+    background-color: rgb(0,136,197);
 }
 .zheng10{
     background-color: rgb(16,222,246);
@@ -178,9 +179,12 @@
 .zheng12{
     background-color: rgba(215,10,164);
 }
+.zheng13{
+    background-color: rgba(167,92,0);
+}
 .clumn_radius_right1_zheng .zheng_title{
     flex: 1;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     text-align: left;
 }
@@ -205,4 +209,11 @@
 }
 #hid p{
     word-wrap:break-word !important;
+}
+.layui-carousel-arrow{
+    width: 109px !important;
+    height: 109px !important;
+    line-height: 109px !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
 }

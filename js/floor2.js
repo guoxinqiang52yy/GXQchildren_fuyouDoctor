@@ -21,6 +21,7 @@ $(function ($) {
                 dataType: 'JSON',
                 contentType: 'application/x-www-form-urlencoded',
                 success: function (res) {
+                    console.log(res.data);
                     $(".layui-col-md8").html("")
                     datas = JSON.parse(JSON.stringify(res.data))
                     var stringHtml = ''
